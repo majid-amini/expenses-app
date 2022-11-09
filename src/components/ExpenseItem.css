@@ -4,8 +4,8 @@ body {
 }
 .expense_container {
   background-color: rgb(146, 210, 231);
-  padding: 2rem 0;
-  margin: 2rem auto;
+  padding: 1rem 0;
+  margin: 1rem auto;
   border-radius: 1rem;
 }
 .expense_container button {

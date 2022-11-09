@@ -5,11 +5,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(204, 204, 204, 0.815);
-    padding: 1rem;
+    background-color: rgba(204, 204, 204, 0.3);
+    padding: 0.5rem 1rem;
     border-radius: 1rem;
     color: snow;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0.1rem 0.2rem 0.1rem #2d2d2d;
 }
 .user__info__left {
     display: flex;
@@ -30,6 +31,7 @@
     padding: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000;
 }
 .user__info__right {
     background-color: purple;

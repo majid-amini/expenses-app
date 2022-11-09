@@ -40,6 +40,11 @@ function Maincontent() {
         amount={expenses[2].amount}
         date={expenses[2].date}
       />
+        <UserInfo
+        title={expenses[3].title}
+        amount={expenses[3].amount}
+        date={expenses[3].date}
+      />
     </div>
   );
 }
