@@ -1,4 +1,5 @@
 body {
+	/* body-background */
   background: url(../img/ocean.jpg) no-repeat center center;
   animation: bg 5s linear 0s 1 normal forwards;
 }
