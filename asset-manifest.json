@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/expenses-app/static/css/main.2a86cd0e.css",
+    "main.css": "/expenses-app/static/css/main.2add972d.css",
     "main.js": "/expenses-app/static/js/main.bacbb04c.js",
     "static/js/787.2e8e4b4a.chunk.js": "/expenses-app/static/js/787.2e8e4b4a.chunk.js",
-    "static/media/839008.jpg": "/expenses-app/static/media/839008.efec4c1c244a24f0c4e4.jpg",
+    "static/media/ocean.jpg": "/expenses-app/static/media/ocean.497550520f2e27c7cbc2.jpg",
     "index.html": "/expenses-app/index.html",
-    "main.2a86cd0e.css.map": "/expenses-app/static/css/main.2a86cd0e.css.map",
+    "main.2add972d.css.map": "/expenses-app/static/css/main.2add972d.css.map",
     "main.bacbb04c.js.map": "/expenses-app/static/js/main.bacbb04c.js.map",
     "787.2e8e4b4a.chunk.js.map": "/expenses-app/static/js/787.2e8e4b4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a86cd0e.css",
+    "static/css/main.2add972d.css",
     "static/js/main.bacbb04c.js"
   ]
 }
