@@ -4,35 +4,52 @@ body {
   animation: bg 5s linear 0s 1 normal forwards;
 }
 .expense_container {
-  background-color: rgb(146, 210, 231);
-  padding: 1rem 0;
+  background-color: rgba(146, 210, 231, 0.25);
   margin: 1rem auto;
   border-radius: 1rem;
 }
 .expense_container form {
 	display: flex;
+	flex-direction: column;
     justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
     padding: 0.5rem 2rem;
 }
-
+.form__inputs__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+}
+.form__inputs__container div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.25rem;
+}
+.form__inputs__container div label {
+	font-weight: bold;
+}
 .expense_container form input {
 	padding: 0.5rem;
 	border: none;
 	outline: none;
 	border-radius: 0.5rem;
-	margin-left: 0.5rem;
+	
 }
 .expense_container button {
   color: snow;
   background-color: purple;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   border: none;
   outline: none;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   cursor: pointer;
-  font-weight: 800;
+  font-size: 0.9rem;
+  font-weight: 600;
   transition: 0.3s all ease-in-out;
   animation: myAnim 2s ease 0s 1 normal forwards;
   
