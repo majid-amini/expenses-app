@@ -1,5 +1,7 @@
 import UserInfo from "./UserInfo";
 import "./Maincontent.css";
+import ExpenseFilter from "./ExpenseFilter";
+// import ExpenseItem from "./ExpenseItem";
 
 function Maincontent() {
   const expenses = [
@@ -23,8 +25,10 @@ function Maincontent() {
       date: new Date(2021, 5, 12),
     },
   ];
+  
   return (
     <div className="main_content__container">
+      <ExpenseFilter />
       <UserInfo
         title={expenses[0].title}
         amount={expenses[0].amount}
