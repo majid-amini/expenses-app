@@ -1,7 +1,7 @@
 import "./App.css";
 import ExpenseItem from "./components/ExpenseItem";
 import Maincontent from "./components/Maincontent";
-import ExpenseFilter from "./components/ExpenseFilter";
+// import ExpenseFilter from "./components/ExpenseFilter";
 function App() {
   // const expenses = [
   //   {
