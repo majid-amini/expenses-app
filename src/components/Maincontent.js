@@ -1,16 +1,20 @@
+import React, { useState } from "react";
 import UserInfo from "./UserInfo";
 import "./Maincontent.css";
 import ExpenseFilter from "./ExpenseFilter";
 // import ExpenseItem from "./ExpenseItem";
 
 const Maincontent = (props) => {
+  const [filteredYear, setFilteredYear] = useState("2020");
   const filterChangedHandler = (selectedYear) => {
-    console.log('Maincontent.js');
-    console.log(selectedYear);
+    setFilteredYear(selectedYear);
   };
   return (
     <div className="main_content__container">
-      <ExpenseFilter onChangeFilter={filterChangedHandler}/>
+      <ExpenseFilter
+        selected={filteredYear}
+        onChangeFilter={filterChangedHandler}
+      />
       <UserInfo
         title={props.items[0].title}
         amount={props.items[0].amount}
