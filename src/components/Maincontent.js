@@ -9,6 +9,10 @@ const Maincontent = (props) => {
   const filterChangedHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
+  const filteredOptions = props.items.filter((item) => {
+    return item.date.getFullYear().toString() === filteredYear;
+  });
+  
   return (
     <div className="main_content__container">
       <ExpenseFilter
@@ -16,7 +20,7 @@ const Maincontent = (props) => {
         onChangeFilter={filterChangedHandler}
       />
 
-      {props.items.map((item) => (
+      {filteredOptions.map((item) => (
         <UserInfo
           key={item.id}
           title={item.title}
