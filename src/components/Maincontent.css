@@ -3,6 +3,13 @@
   padding: 0.5rem;
   border-radius: 1rem;
 }
+.main_content__container p{
+  color: rgb(175, 27, 27);
+  font-weight: bold;
+  text-align: center;
+  /* padding: 1rem; */
+  
+}
 .user__info {
   display: flex;
   justify-content: space-between;

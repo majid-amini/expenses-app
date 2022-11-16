@@ -6,6 +6,7 @@ body {
 .expense_container {
   background-color: rgba(146, 210, 231, 0.25);
   margin: 1rem auto;
+  padding: 1rem;
   border-radius: 1rem;
 }
 .expense_container form {
@@ -22,6 +23,11 @@ body {
 	align-items: center;
 	padding: 1rem;
 	gap: 1rem;
+}
+.form__submit__total {
+	display: flex;
+	gap: 1rem;
+	align-self: flex-end;
 }
 .form__inputs__container div {
 	display: flex;
