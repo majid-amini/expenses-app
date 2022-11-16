@@ -25,7 +25,7 @@ const ExpenseForm = (props) => {
   const dateChangeHandler = (e) => {
     setEnteredDate(e.target.value);
   };
-  
+
   return (
     <form onSubmit={submitForm}>
       <div className="form__inputs__container">
@@ -62,7 +62,9 @@ const ExpenseForm = (props) => {
         </div>
       </div>
       <div className="form__submit__total">
-        <button type="button" onClick={props.stop}>cancle</button>
+        <button type="button" onClick={props.stop}>
+          cancle
+        </button>
         <button type="submit">Add New Expense</button>
       </div>
     </form>
