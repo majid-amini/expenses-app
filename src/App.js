@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import ExpenseItem from "./components/ExpenseItem";
 import Maincontent from "./components/Maincontent";
-// import ExpenseFilter from "./components/ExpenseFilter";
+// import ExpensesChart from "./components/ExpensesChart";
 function App() {
   const userData = [
     {
@@ -27,7 +27,7 @@ function App() {
   ];
   const [expenses, setExpenses] = useState(userData);
   const addExpenseHandler = (expense) => {
-      setExpenses((prevExpenses) => {
+    setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     });
   };
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <ExpenseItem onAddExpense={addExpenseHandler} />
-      {/* <ExpenseFilter /> */}
+      {/* <ExpensesChart userData={userData}/> */}
       <Maincontent items={expenses} />
     </div>
   );

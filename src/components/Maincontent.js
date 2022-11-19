@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import UserInfo from "./UserInfo";
 import "./Maincontent.css";
 import ExpenseFilter from "./ExpenseFilter";
-// import ExpenseItem from "./ExpenseItem";
+import ExpensesChart from "./ExpensesChart";
 
 const Maincontent = (props) => {
   const [filteredYear, setFilteredYear] = useState("2022");
@@ -20,6 +20,7 @@ const Maincontent = (props) => {
         selected={filteredYear}
         onChangeFilter={filterChangedHandler}
       />
+      <ExpensesChart expenses={filteredOptions}/>
       {filteredOptions.length === 0 ? (
         <p>No Items!</p>
       ) : (
